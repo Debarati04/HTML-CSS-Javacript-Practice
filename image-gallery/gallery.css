@@ -1,0 +1,59 @@
+body{
+    background: #ccc ;
+    text-align: center;
+    font-family: Helvetica, Arial;
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/purty_wood.png") repeat;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(199,21,133);
+    text-decoration: none;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px grey;
+}
+.gallery {
+    background: #ddd;
+    height: 440px;
+    width: 780px ;
+    padding: 10px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+.pics{
+    float: left;
+    height: 120px;
+    width: 150px;
+    border: 10px #ffffff solid;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 5px grey;
+    transition: transform 0.1s, border-color 0.2s;
+}
+.pics:hover{
+    transform: scale(1.05);
+    border-color:rgb(199,21,133);
+}
+.large-pic{
+    height: 600px;
+    width: 750px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px grey;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    
+}.backlink{
+    text-decoration: none;
+    margin: 20px;
+    
+}
+.footer{
+    color: #777;
+    margin: 25px;
+    font-size: 12px;
+}
