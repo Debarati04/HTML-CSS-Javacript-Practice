@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form name="signIn" action="/signIn" method="POST" enctype="multipart/form-data">
+            <h2>SIGN IN</h2>
+            <table border="1">
+                <tr>
+                    <td>
+                        Username
+                    </td>
+                    <td>
+                        <input type="text" name="username" maxlength="256" size="32" placeholder="enter your username"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>    
+                    <td>
+                        <input type="password" name="password" maxlength="256" size="32" placeholder="enter your password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="KeepMeSignedIn" checked/> Keep me signed in
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Sign In"/>
+                        <input type="reset" name="reset" value="Reset"/>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="choice" value="yes"/> Yes <br />
+                        <input type="radio" name="choice" value="no"/> No <br />
+                        <input type="radio" name="choice" value="maybe"/> Maybe <br />
+                        
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name="description">
+                            add some content
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="subject">
+                            <option value="Eng">English</option>
+                            <option value="Maths">Maths</option>
+                            <option value="CS">Computer Sc</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="file" name="dp" accept="image/*"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
