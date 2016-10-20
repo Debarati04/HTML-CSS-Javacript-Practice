@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+/* NAV STYLES */
+.nav {
+    text-align: center;
+    background-color: #323875;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.nav a {
+    color: #e2edff;
+}
+
+/* SECTION */
+.section {
+    padding: 100px 15%;
+}
+
+.about {
+    background: #345c9b; 
+}
+
+.projects {
+    background: #D81159;
+}
+
+.skills {
+    background: #8F2D56;
+}
+
+.contact, .footer {
+    background: #FBB13C;
+}
+
+/* SECTION HEADING */
+.section-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+/* PROFILE */
+.profile {
+    margin: 100px auto;
+    display: table;
+}
+
+#profile-icon {
+    height: 200px;
+    width: 200px;
+    background-image: url('profile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+    display: table-cell;
+    box-sizing: border-box;
+    border: 10px solid #7697cc;
+}
+
+.profile-content {
+    display: table-cell;
+    padding: 0 20px;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    color: #fff;
+    line-height: 2rem;
+    font-weight: lighter;
+    color: #e2edff;
+}
+
+#profile-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* PROJECTS */
+.projects-gallery {
+}
+
+.project-item {
+    height: 150px;
+    width: 200px;
+    border: 10px solid #FBB13C;
+    margin: 0 30px 30px 0;
+    float: left;
+    background: #666;
+
+    font-size: 100px;
+    color: #999;
+    line-height: 150px;
+    text-align: center;
+}
+
+/* SKILLS */
+.skill {
+    font-size: 3rem;
+    color: #FBB13C;
+    margin: 20px 0;
+}
+
+.skill-name {
+    text-align: right;
+    width: 150px;
+    line-height: 3rem;
+    float: left;
+}
+
+.skill-value {
+    height: 3rem;
+    background: #FBB13C;
+    width: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+#skill-html {
+    width: 500px;
+}
+
+#skill-css {
+    width: 450px;
+}
+
+#skill-js {
+    width: 480px;
+}
+
+/* FORM */
+.form-field {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 20px 0;
+}
+
+.form-field-name {
+    width: 150px;
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.form-field-input {
+    float: left;
+
+}
+
+input, textarea {
+    width: 500px;
+    font-size: 1.5rem;
+    border: 0;
+    background: #ffe07c;
+}
+
+textarea {
+    height: 200px;
+}
+
+.contact-icons {
+    margin-left: 170px;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.contact-icon {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin-right: 10px;
+    border-radius: 80px;
+    background: #666;
+
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #999;
+}
+
+
+/* FOOTER */
+.footer {
+    font-size: 0.8rem;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
