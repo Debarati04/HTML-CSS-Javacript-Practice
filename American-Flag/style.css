@@ -1,0 +1,42 @@
+html body{
+    margin:0px;
+    padding:0px;
+    background:gray;
+}
+.flag-background{
+    width: 600px;
+    height:325px;
+    margin: auto;
+    position:relative;
+    top:100px;
+    background: gray;
+    border: 1px solid black;
+    overflow:hidden;
+    
+}
+.strips{
+    height:50px;
+    border-top: 25px solid #bc292e;
+    box-sizing: border-box;
+    background: white;
+}
+.corner-block{
+    background:#244f93;
+    position:absolute;
+    top:0;
+    left:0;
+    width:45.5%;
+    height:170px;
+    padding-top:5px;
+}
+.star-row-odd{
+}
+.star-row-even{
+    padding:0 0 0 20px;
+}
+.star{
+    color:white;
+    display:inline;
+    font-size: 13px;
+    padding: 16px;
+}
