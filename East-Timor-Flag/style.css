@@ -1,0 +1,37 @@
+html, body{
+    margin:0;
+    padding:0;
+    background:gray;
+}
+.flag-background{
+    height:300px;
+    width:600px;
+    position:relative;
+    top:120px;
+    border-left: yellow solid 300px;
+    border-right: #e0162a solid 300px;
+    border-top: #e0162a solid 150px;
+    border-bottom: #e0162a solid 150px;
+    box-sizing: border-box;
+    margin:auto;
+}
+.black-box{
+    height:300px;
+    width:400px;
+    border-left: solid black 200px;
+    border-right: transparent solid 200px;
+    border-top:transparent solid 150px;
+    border-bottom: transparent solid 150px;
+    box-sizing: border-box;
+    position:relative;
+    top:-150px;
+    left:-300px;
+}
+.star{
+    color:white;
+    font-size: 120px;
+    position:relative;
+    left:-190px;
+    top:-70px;
+    transform: rotate(-25deg);
+}
