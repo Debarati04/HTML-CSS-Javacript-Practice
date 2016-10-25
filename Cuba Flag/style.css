@@ -1,0 +1,42 @@
+html, body{
+    margin:0;
+    padding:0;
+    background:gray;
+}
+.flag-background{
+    height:300px;
+    width:600px;
+    position:relative;
+    top:120px;
+    margin:auto;
+    overflow: hidden;
+    
+}
+.strips{
+    height:120px;
+    border-top:solid 60px #0909ba;
+    box-sizing: border-box;
+    background:white;
+   
+}
+.red-corner{
+    position:relative;
+    border-left: #ce1010 275px solid;
+    border-top: transparent 150px solid ;
+    border-right: transparent 275px solid ;
+    border-bottom: transparent 150px solid ;
+    top:-360px;
+}
+/*.star{
+    font-size: 20px;
+    color:white;
+    position:relative;
+    left:-30px;
+}*/
+.star{
+    color:white;
+    font-size: 120px;
+    position:relative;
+    left:45px;
+    top:-600px;
+}
