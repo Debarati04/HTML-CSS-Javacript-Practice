@@ -1,0 +1,42 @@
+html,body{
+    margin:0;
+    padding:0;
+    background:#c4bebe;
+}
+.flag-background{
+    height:300px;
+    width:600px;
+    background:#26af28;
+    box-sizing: border-box;
+    position:relative;
+    top:120px;
+    margin:auto;
+}
+.rhombus{
+    height:250px;
+    width:250px;
+    background:yellow;
+    position:relative;
+    left:170px;
+    top:25px;
+    transform:rotate(135deg) skew(20deg, 20deg);
+}
+.ball{
+    height:150px;
+    width:150px;
+    border-radius:150px;
+    background:blue;
+    overflow:hidden;
+    margin:auto;
+    position:relative;
+    top:-175px;
+}
+.circle1{
+    background:white;
+    transform: translate(-5px,210px) skew(30deg, -10deg);
+}
+.circle2{
+    background:blue;
+    transform: translate( 0px,70px) skew(30deg, 1deg);
+    
+}
