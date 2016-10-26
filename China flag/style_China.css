@@ -1,0 +1,45 @@
+html, body{
+    margin:0;
+    padding:0;
+    background:gray;
+}
+.flag-background{
+    height:300px;
+    width:600px;
+    background:#f2380e;
+    box-sizing: border-box;
+    position:relative;
+    top:120px;
+    margin:auto;
+}
+.corner{
+    height:150px;
+    width:300px;
+    background:#f2380e;
+    overflow:hidden;
+}
+.star{
+    color:yellow;
+    font-size: 120px;
+    position:relative;
+    left:20px;
+    top:-20px;
+    overflow:hidden;
+}
+.small-star{
+    color:yellow;
+    font-size: 40px;
+    overflow:hidden;
+}
+.one{
+    transform: translate(130px,-95px) rotate(20deg);
+}
+.second{
+    transform:translate(155px,-100px) rotate(30deg);
+}
+.third{
+    transform:translate(145px,-90px) rotate(40deg);
+}
+.fourth{
+    transform: translate(130px,-150px) rotate(20deg);
+}
