@@ -27,16 +27,10 @@ html, body{
     border-bottom: transparent 150px solid ;
     top:-360px;
 }
-/*.star{
-    font-size: 20px;
-    color:white;
-    position:relative;
-    left:-30px;
-}*/
 .star{
     color:white;
-    font-size: 120px;
+    font-size: 130px;
     position:relative;
-    left:45px;
-    top:-600px;
+    left:10px;
+    top:-620px;
 }
