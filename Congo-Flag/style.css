@@ -1,0 +1,50 @@
+html, body{
+    margin:0;
+    padding:0;
+    background:gray;
+}
+.flag-background{
+    height:300px;
+    width:600px;
+    background:#c41316;
+    box-sizing: border-box;
+    position:relative;
+    top:120px;
+    margin:auto;
+}
+.yellow-strip{
+    border-top:#eddc28 solid 120px;
+    border-right: transparent solid 300px;
+    border-bottom:transparent solid 120px;
+    border-left: #eddc28 solid 300px;
+    box-sizing: border-box;
+}
+.yellow-bottom{
+    transform:rotate(180deg);
+    position:relative;
+    top:-180px;
+}
+.blue-strip{
+    border-top: #31a9d8 solid 115px;
+    border-right: transparent solid 280px;
+    border-bottom: transparent solid 110px;
+    border-left: #31a9d8 solid 280px;
+    box-sizing: border-box;
+    position: relative;
+    top: -480px;
+    height:0px;
+    width:0px;
+}
+.blue-bottom{
+    transform:rotate(180deg);
+    position:relative;
+    top:-630px;
+    left:40px;
+}
+.star{
+    color:yellow;
+    font-size: 130px;
+    position: relative;
+    left:15px;
+    top:-960px;
+}
