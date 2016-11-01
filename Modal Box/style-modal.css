@@ -1,0 +1,55 @@
+html body{
+    margin:0px;
+    padding:0px;
+    background:#76788e;
+    font-family: Helvetica, Arial;
+    
+}
+.modal-background{
+    width: 50%;
+    height:50%;
+    margin: auto;
+    position:absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+}
+.content{
+    text-align:center;
+    padding:20px;
+}
+.title{
+    font-size:40px;
+}
+.text{
+    font-size:30px;
+}
+.options{
+    padding:50px;
+    color:black;
+    text-align:center;
+}
+input[type=submit]{
+    background-color: #05ba41;
+    padding:20px;
+    height:60px;
+    width:80px;
+    font-size:20px;
+}
+input[type=button]{
+    padding:20px;
+    height:60px;
+    width:120px;
+    background-color:#bf1805;
+    font-size:20px;
+}
+.input:hover,
+.input:focus{
+    color: black;
+}
+.space{
+    padding:30px;
+}
