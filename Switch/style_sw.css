@@ -21,6 +21,7 @@ input[type=checkbox]{
   background:white;
   border-radius: 50px;
   box-shadow: 0 0 30px gray; 
+  position:relative;
  
 }
 .inner-oval{
@@ -32,25 +33,26 @@ input[type=checkbox]{
   top:15px;
   border-radius:50px;
   box-shadow:none;
+  
+
 }
-.outer-oval label{
+.inner-oval label{
   width:70px;
   height:70px;
   border-radius:70px;
   background:#d11306;
   border: 1px solid #961206;
   position:absolute;
+  left:0;
   cursor:pointer;
   z-index:1;
+  transition:background .3s ease-out, left .3s ease-out;
+  
 }
-.outer-oval input[type=checkbox]:checked + label{
+.inner-oval input[type=checkbox]:checked + label{
     position:absolute;
     background:#269607;
     left:80px;
-    
-}
-div.inner-oval > input[type=checkbox]:checked + label{
-    box-shadow: 0 0 70px #ede32a;
 }
 .inner-oval:after{
     content:"OFF";
@@ -68,3 +70,17 @@ div.inner-oval > input[type=checkbox]:checked + label{
     color:gray;
     z-index:0;
 }
+.glow{
+    position: absolute;
+    top: -16px;
+    left: -15px;
+    height: 100px;
+    width: 180px;
+    box-shadow: 0 0 70px yellow;
+    border-radius: 100px;
+    opacity: 0; 
+}
+.inner-oval input[type=checkbox]:checked ~ .glow{
+    opacity:1;
+}
+
