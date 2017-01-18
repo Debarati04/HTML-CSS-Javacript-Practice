@@ -16,7 +16,6 @@ html, body{
     height:150px;
     width:300px;
     background:#f2380e;
-    overflow:hidden;
 }
 .star{
     color:yellow;
@@ -24,9 +23,30 @@ html, body{
     position:relative;
     left:20px;
     top:-20px;
-    overflow:hidden;
+    
+}
+.star-box{
+    height:40px;
+    width:40px;
+    position: relative;
+    left:30px;
+    top:-90px;
+}
+.box1{
+    transform:rotate(-20deg);
+}
+.box2{
+    transform:rotate(-10deg);
 }
 .small-star{
+    color:pink;
+    font-size: 40px;
+    position:relative;
+    float:right;
+    
+    
+}
+/*.small-star{
     color:yellow;
     font-size: 40px;
     overflow:hidden;
