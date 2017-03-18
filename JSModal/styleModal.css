@@ -1,0 +1,59 @@
+body html{
+    margin:0;
+    padding:0;
+}
+#startBtn{
+    margin:20px;
+    font-size:20px;
+    box-shadow:2px 2px 5px black;
+}
+
+.modalBox{
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    display:none;
+    z-index:10;
+    position:fixed;
+    left:0;
+    top:0;
+    box-shadow: 2px 2px 5px black;
+}
+.modalContent{
+    height:30%;
+    width:70%;
+    margin:20% auto;
+    background-color: white;
+    border: 2px solid black;
+    text-align:center;
+    border-radius:5px;
+    font-family:Helvetica;
+}
+#title{
+    color: white;
+    background:#3f4754;
+    height:30%;
+    line-height:80px;
+    font-size:30px;
+    
+}
+#msg{
+    height:35%;
+    border-bottom:.4px solid #c2c8d1;
+    font-size:30px;
+    line-height:100px;
+}
+#choice{
+    line-height:100px;
+    
+}
+#no{
+    font-size:30px;
+    border-radius:2px 2px 5px gray;
+
+}
+#yes{
+    font-size:30px;
+    border-radius:2px 2px 5px gray;
+    margin-right:40px;
+}
