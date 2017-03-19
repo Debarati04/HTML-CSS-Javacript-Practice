@@ -1,7 +1,7 @@
 function handler(){
     var colorArray = ['red', 'blue', 'green', 'yellow', 'grey', 'pink'];
     
-    var tdLen = document.getElementsByClassName('row')
+    var tdLen = document.getElementsByClassName('row');
     for (var i=0; i<tdLen.length; i++){
         var x = document.getElementsByTagName("input")[i].value;
         var div = document.createElement('div');
