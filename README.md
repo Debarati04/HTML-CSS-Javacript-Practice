@@ -1,4 +1,4 @@
-Practice problems with the below:
+Practice problems with the below ideas:
 1. Concentric shapes
 2. Modal Box
 3. Bar Graph
